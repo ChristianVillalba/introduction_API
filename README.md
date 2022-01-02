@@ -15,10 +15,14 @@ on their users, or something like the police API, which has data on crimes,
 there’s certain pieces of data that they will allow you to access,     
 but there's other pieces of data that are confidential.      
 
-API concepts:
+### API concepts:
 * Endpoint:        
 Any API that interacts with a external system, like a server, will have an endpoint.     
 The endpoint of the API is an URL
+
+Web sites that have API tend to have many data,
+API paths and parameters can be used to narrow down on a specific piece of data that we want from an external server.
+
 * Paths
 * Parameters
 * Authentification
